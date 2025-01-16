@@ -1,2 +1,2 @@
-# Int-Photo-Gallery-Unit-5-
+# Int-Photo-Gallery-Unit-5
 Interactive Photo Galley
