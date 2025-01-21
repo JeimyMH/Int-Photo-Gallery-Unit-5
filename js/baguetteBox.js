@@ -3,6 +3,7 @@
  * @author  feimosi
  * @version 1.12.0
  * @url https://github.com/feimosi/baguetteBox.js
+ * lightbox plugin for photo gallary
  */
 
 /* global define, module */

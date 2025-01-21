@@ -1,6 +1,8 @@
+/* css styling for photo gallery project */ 
 *{
     box-sizing: border-box;
-  }
+    background-color:black;
+}
 
 .search-bar {
     display: flex;
@@ -11,8 +13,17 @@
 input#search {
     padding: 1rem;
     width: 40%;
-    
+    background-color: white;
  }
+
+::placeholder {
+    color: black;
+ }
+
+div.gallery {
+    background-color: black;
+
+}
 
 main {
     max-width: 875px;
@@ -24,10 +35,4 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 25ch), 1fr));
     grid-auto-rows: auto;
     gap: 1.5rem;
- }
-
-
-
-
-
-
+}    
