@@ -6,11 +6,11 @@ search.addEventListener("keyup", e => {
     let currentValue = e.target.value.toLowerCase();
     photos.forEach(photo => {
         if (photo.getAttribute("data-caption")
-            .textContent.toLowerCase()
+            .toLowerCase()
             .includes(currentValue)) {
-            photo.parentNode.parentNode.style.display = "block";
+            photo.style.display = "block";
         } else {
-            photo.parentNode.parentNode.style.display = "none";
+            photo.style.display = "none";
         }
     });
 })
