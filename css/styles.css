@@ -1,6 +1,8 @@
 /* css styling for photo gallery project */ 
+
 *{
   background-color:black;
+  box-sizing: border-box;
 }
 
 .search-bar {
@@ -21,16 +23,16 @@ input#search {
 
 div.gallery {
     background-color: black;
+    margin-left: 2.0%;
 }
 
 main {
-    max-width: 875px;
-    margin: 2rem auto;
-    
- }
+    margin: 5%;   
+}
 
 .gallery {
     display:grid;
+    flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 2rem;
-}    
+    grid-gap: .75rem;
+}
